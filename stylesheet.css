@@ -1,3 +1,10 @@
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
     background-image: url("https://pre00.deviantart.net/a314/th/pre/f/2011/221/b/1/harry_potter_logos_wallpaper_by_jontylerthe27th-d45y2up.jpg");
 }
