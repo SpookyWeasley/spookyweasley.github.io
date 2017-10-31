@@ -1,9 +1,23 @@
-html { 
-  background: url(ttps://pre00.deviantart.net/a314/th/pre/f/2011/221/b/1/harry_potter_logos_wallpaper_by_jontylerthe27th-d45y2up.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
 }
 body {
     background-image: url("https://pre00.deviantart.net/a314/th/pre/f/2011/221/b/1/harry_potter_logos_wallpaper_by_jontylerthe27th-d45y2up.jpg");
